@@ -1,0 +1,130 @@
+/* variable */
+
+:root{
+    --mainColor : rgb(49, 132, 209);
+    --secondColor : rgb(238, 56, 56);
+    --colorLegend : #ddd;
+}
+/* galobl css */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width:767px) {
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:991px) {
+    .container{
+        width: 970px;
+    }
+}@media (min-width:1199px) {
+    .container{
+        width: 1170px;
+    }
+}
+.view{
+    width: 100%;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+}
+.card{
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    
+}
+.card1{
+    background-image: url(../../../img/554.jpg);
+    background-size:cover;
+
+}
+.card2{
+    background-image: url(../../../img/images.jpg);
+    background-size:cover;
+
+}
+.card3{
+    background-image: url(../../../img/34808069281095910913.jpg);
+    background-size:cover;
+    color: var(--mainColor);
+
+}
+.card4{
+    background-image: url(../../../img/خلفيات-منقبات-22.webp);
+    background-size:cover;
+
+}
+.card5{
+    background-image: url(../../../img/str-ly.com_1390061363_541.gif);
+    background-size:cover;
+
+}
+.card6{
+    background-image: url(../../../img/بنات-منتقبات-13.jpg);
+    background-size:cover;
+
+}
+.card7{
+    background-image: url(../../../img/photo1386055744_844.jpg);
+    background-size:cover;
+    color: #000;
+
+}
+/* h */
+.card .content{
+    position: absolute;
+    bottom: 50px;
+    text-align: right;
+    padding: 30px;
+    font-size: 18px;
+}
+.card .content h3{
+    display: inline-block;
+}
+.card .statIcon{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #0f0;
+    border-radius: 50%;
+}
+.card .footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 3;
+}
+
